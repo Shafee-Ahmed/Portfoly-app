@@ -8,14 +8,24 @@ const Contactme = () => {
       <ModuleTitle
         title="Contact"
         Para="I'm currently available for freelance work"
-        className="text-center flex flex-col items-center gap-6"
+        className="text-center flex flex-col items-center gap-6
+        md:mb-10
+        "
       />
-      <div className="w-full max-w-xs mb-4">
-        <div className="border-2 border-[#12F7D6] rounded-tl-[32px] rounded-br-[32px] px-4 py-2 text-[#12F7D6] text-xl font-bold text-center mb-6">
+      <div className="w-full max-w-xs mb-4
+      
+      ">
+        <div className="border-2 border-[#12F7D6] rounded-tl-[32px] rounded-br-[32px] px-4 py-2
+         text-[#12F7D6] text-xl font-bold text-center mb-6
+         md:mb-20">
           Send Me A Message
         </div>
-        <form className="flex flex-col gap-9">
-          <div className="flex gap-4">
+        <form className="flex flex-col gap-9
+        md:gap-20
+        ">
+          <div className="flex gap-4
+          
+          ">
             <div className="flex flex-col w-1/2">
               <label className="text-[#12F7D6] text-sm mb-1">Your name *</label>
               <input
