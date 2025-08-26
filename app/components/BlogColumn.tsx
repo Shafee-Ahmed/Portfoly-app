@@ -41,7 +41,7 @@ const BlogColumn = ({
                 <div className="flex flex-col gap-5 font-ubuntu 
 
                 ">
-                    <Link href='/' className="
+                    <Link href='/articles' className="
                         text-2xl md:text-3xl
                        text-[#12F7D6]
                     ">
@@ -53,7 +53,7 @@ const BlogColumn = ({
 
                     <div className="flex flex-col  items-start gap-4 ">
 
-                    <Link href="/" className="
+                    <Link href="/articles" className="
                     flex gap-2  underline underline-offset-6 text-[#12f7d6]
                       text-[16px]
                     ">

@@ -4,7 +4,11 @@ const AboutMe = () => {
     return (
         <section className="flex flex-col items-center px-4 py-8 gap-6 font-mono
          border-t-1 border-[#43454D] mb-10
-         
+         md:flex-row
+         md:w-full
+         md:
+         md:justify-around
+         md:items-center
          ">
             <div className="flex flex-col gap-10 items-center
             md:items-start

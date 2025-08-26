@@ -1,7 +1,7 @@
 import BlogColumn from "./BlogColumn"
 import Button from "./Button"
 import ModuleTitle from "./ModuleTitle"
-
+import Link from "next/link"
 const blogInfo = [
     {
         Text: "Sinan",
@@ -21,17 +21,29 @@ const BlogSection = () => {
       </p>"
                 className="text-center flex flex-col items-center gap-6"
             />
-         
+
             <BlogColumn
                 image="pc-image.svg"
                 ques="What does it take to become a web developer?"
                 ans="Web development, also known as website development, encompasses a variety of tasks and processes involved in creating websites for the internet..."
                 info={blogInfo}
             />
-            <div className="flex items-center gap-4">
-                <Button
-                    className="bg-[#12F7D6] text-xl"
-                >View More</Button>
+            <div className="flex items-center gap-6">
+                <Link href='/aritcles'
+                className=""
+                >
+                    <Button
+                    className="bg-[#12F7D6] text-xl hover:bg-[#292f36]
+                    hover:text-white
+                    hover:border-2
+                    hover:border-[#12f7d6]
+                    hover:duration-200
+                    hover:transition-all
+                
+                    "
+                    >View More</Button>
+                </Link>
+
                 <Button
                     className="bg-[#292F36] border-2 border-[#12F7D6] text-white text-xl"
                 >Subscribe</Button>

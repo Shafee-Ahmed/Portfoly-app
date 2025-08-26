@@ -23,7 +23,7 @@ const Header = () => {
         <Link href='/' className="text-xl font-mono text-white hover:text-[#12F7D6] inline ">
           Home
         </Link>
-        <Link href='/' className="text-xl font-mono text-white hover:text-[#12F7D6] inline ">
+        <Link href='/blogs' className="text-xl font-mono text-white hover:text-[#12F7D6] inline ">
           Blogs
         </Link>
         <div>
