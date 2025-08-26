@@ -29,7 +29,7 @@ const BlogSection = () => {
                 info={blogInfo}
             />
             <div className="flex items-center gap-6">
-                <Link href='/aritcles'
+                <Link href='/blogs'
                 className=""
                 >
                     <Button
