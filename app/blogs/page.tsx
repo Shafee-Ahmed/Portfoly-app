@@ -11,8 +11,10 @@ const blogInfo = [
 ]
 const BlogPage = () => {
     return (
-        <>
+        <>  
+        <div className='flex items-center justify-center'>
             <Header />
+        </div>
 
             <ModuleTitle
                 title="Blog"
