@@ -11,9 +11,7 @@ const HeaderItem = () => {
   return (
     <nav className="flex gap-4 items-center ">
       
-      <div className="">
-        <SearchBar />
-      </div>
+    
       <div className="hidden sm:flex items-center 
       
       ">

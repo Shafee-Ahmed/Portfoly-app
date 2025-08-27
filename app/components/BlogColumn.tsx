@@ -65,7 +65,7 @@ const BlogColumn = ({
                                 height={18}
                             />
                     </Link>
-                    <div className="flex flex-col sm:flex-row  gap-4">
+                    <div className="flex flex-col md:flex-row  gap-4">
                             <p className="bg-[#43454D] rounded-full text-[14px] w-fit flex items-center px-2">Web Developer</p>
                             <span>
                                 {info.map((item, idx) => (

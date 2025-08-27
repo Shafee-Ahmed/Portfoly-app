@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+
 
 const SearchBar = () => {
     const [showSearch, setShowSearch] = useState(false);
@@ -9,20 +9,25 @@ const SearchBar = () => {
 
     return (
         <>
-            <div className="flex items-center gap-6">
+            <div className="flex items-center relative  
+                    w-5
+                    h-5
+                    mt-1.5
+                    ">
 
-                <div className="cursor-pointer flex items-center justify-center pt-1 pl-2"
+                <div className="cursor-pointer flex items-center justify-center 
+                  
+                "
                     onClick={() => setShowSearch(true)}
                 >
                     <Image
                         src='/assets/search-black.svg'
                         alt='search'
-                        width={24}
-                        height={24}
+                        fill
                         className=""
                     />
                 </div>
-             
+
             </div>
             {showSearch && (
                 <>

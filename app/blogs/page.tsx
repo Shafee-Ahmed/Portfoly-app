@@ -12,17 +12,19 @@ const blogInfo = [
 const BlogPage = () => {
     return (
         <>  
-        <div className='flex items-center justify-center'>
+        <div className='flex items-center justify-center
+        
+        '>
             <Header />
         </div>
-
-            <ModuleTitle
+        <div className='text-start ml-5'>
+                 <ModuleTitle
                 title="Blog"
                 Para="My thoughts on technology and business, welcome to subscribe
       </p>"
                 className="text-center flex flex-col items-center gap-6 mt-10"
             />
-            <div className='pb-10 pt-10 '>
+            <div className='pb-10 pt-10'>
                 <BlogColumn
                     image="pc-image.svg"
                     ques="What does it take to become a web developer?"
@@ -50,6 +52,8 @@ const BlogPage = () => {
 
             </div>
 
+        </div>
+           
         </>
     )
 }

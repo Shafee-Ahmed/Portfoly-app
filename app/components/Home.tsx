@@ -6,7 +6,10 @@ import HeroIntro from "./HeroIntro"
 const Hero = () => {
     return (
         <main className="flex flex-col items-center justify-center 
-            
+        mr-14
+        ml-14 
+       
+        
         ">
             <Header />
             <div className="flex text-center 
