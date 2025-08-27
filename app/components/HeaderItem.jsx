@@ -10,10 +10,9 @@ const HeaderItem = () => {
   ];
   return (
     <nav className="flex gap-4 items-center ">
-      
-    
       <div className="hidden sm:flex items-center 
-      
+      sm:mt-2 
+      sm:gap-4
       ">
         {link.map(({ icon, title }, idx) => (
           <Link href="#" key={idx} className="mx-2 flex items-center gap-2">
